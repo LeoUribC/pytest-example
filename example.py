@@ -9,5 +9,4 @@ def test_add():
 	assert add("space", "ship") == "spaceship"
 
 def test_substract():
-	assert substract(1, 2) == 1
-
+	assert substract(1, 2) == -1
